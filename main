@@ -12,3 +12,8 @@ def prime_numbers_in_range(start, end):
         if is_prime(num):
             prime_numbers.append(num)
     return prime_numbers
+
+start_num = 11
+end_num = 20
+result = prime_numbers_in_range(start_num, end_num)
+print(result)
